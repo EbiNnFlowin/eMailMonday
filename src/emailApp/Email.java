@@ -26,6 +26,7 @@ public class Email {
         System.out.println("Your password is: " + this.password);
         email = firstName.toLowerCase() + "." + lastName.toLowerCase() +"@."+ companySuffix;
         System.out.println("Your email is "+ email);
+
     }
     private  String setDepartment(){
         System.out.print("Enter the department:\n1 for Sales\n2 for Instructors\n3 for Technology\n4 for Office\n0 for none\nEnter department code: ");
